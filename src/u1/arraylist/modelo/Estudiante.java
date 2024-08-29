@@ -9,8 +9,8 @@ package u1.arraylist.modelo;
  * @author Boris Perez
  */
 public class Estudiante {
-    private String nombre, apellido, codigo;
-    private int edad;
+    private String nombre, apellido;
+    private int edad, codigo;
     private double promedio;
 
     public String getNombre() {
@@ -29,11 +29,11 @@ public class Estudiante {
         this.apellido = apellido;
     }
 
-    public String getCodigo() {
+    public int getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(String codigo) {
+    public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
 
